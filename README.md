@@ -1,6 +1,6 @@
 <!-- ============ HEADER ============ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:06b6d4&height=220&section=header&text=Emirhan%20Co%C5%9Fkun&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full-Stack%20%26%20Mobile%20Developer%20%E2%80%A2%20Co-founder%20%40%20Ayna%20Yaz%C4%B1l%C4%B1m&descSize=18&descAlignY=58" width="100%" alt="header"/>
+  <img src="assets/header.svg" width="100%" alt="Emirhan Coşkun"/>
 </p>
 
 <p align="center">
@@ -149,5 +149,5 @@ Local-first Chrome extension that archives, searches and recovers your Claude & 
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:1e3a8a,100:0f172a&height=120&section=footer" width="100%" alt="footer"/>
+  <img src="assets/footer.svg" width="100%" alt=""/>
 </p>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#06b6d4">
+        <animate attributeName="stop-color" values="#06b6d4;#22d3ee;#0891b2;#06b6d4" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#a5f3fc"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="1200" height="260" rx="0"/></clipPath>
+  </defs>
+  <style>
+    .name{font:800 60px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;letter-spacing:1px}
+    .sub{font:500 21px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#cbd5e1}
+    .fade1{opacity:0;animation:fade 1.2s ease-out .2s forwards}
+    .fade2{opacity:0;animation:fade 1.2s ease-out .9s forwards}
+    @keyframes fade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+    .dot{fill:#67e8f9;opacity:.5}
+  </style>
+  <g clip-path="url(#clip)">
+    <path d="M0 0H1200V200C1000 250 800 160 600 200S200 250 0 200Z" fill="url(#bg)">
+      <animate attributeName="d" dur="10s" repeatCount="indefinite"
+        values="M0 0H1200V200C1000 250 800 160 600 200S200 250 0 200Z;
+                M0 0H1200V215C1000 170 800 250 600 205S200 170 0 215Z;
+                M0 0H1200V200C1000 250 800 160 600 200S200 250 0 200Z"/>
+    </path>
+    <path d="M0 0H1200V185C950 225 820 150 600 185S180 230 0 185Z" fill="#06b6d4" opacity=".18">
+      <animate attributeName="d" dur="7s" repeatCount="indefinite"
+        values="M0 0H1200V185C950 225 820 150 600 185S180 230 0 185Z;
+                M0 0H1200V195C950 150 820 230 600 190S180 150 0 195Z;
+                M0 0H1200V185C950 225 820 150 600 185S180 230 0 185Z"/>
+    </path>
+    <circle class="dot" cx="120" cy="60" r="3"><animate attributeName="cy" values="60;40;60" dur="5s" repeatCount="indefinite"/></circle>
+    <circle class="dot" cx="1050" cy="70" r="4"><animate attributeName="cy" values="70;45;70" dur="6s" repeatCount="indefinite"/></circle>
+    <circle class="dot" cx="960" cy="140" r="2"><animate attributeName="cy" values="140;120;140" dur="4s" repeatCount="indefinite"/></circle>
+    <circle class="dot" cx="230" cy="150" r="2.5"><animate attributeName="cy" values="150;128;150" dur="4.5s" repeatCount="indefinite"/></circle>
+  </g>
+  <g class="fade1"><text x="600" y="102" text-anchor="middle" class="name" fill="url(#txt)">Emirhan Coşkun</text></g>
+  <g class="fade2"><text x="600" y="145" text-anchor="middle" class="sub">Full-Stack &amp; Mobile Developer · Co-founder @ Ayna Yazılım</text></g>
+</svg>
