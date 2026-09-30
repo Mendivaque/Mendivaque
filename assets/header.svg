@@ -18,9 +18,6 @@
   <style>
     .name{font:800 60px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;letter-spacing:1px}
     .sub{font:500 21px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#cbd5e1}
-    .fade1{opacity:0;animation:fade 1.2s ease-out .2s forwards}
-    .fade2{opacity:0;animation:fade 1.2s ease-out .9s forwards}
-    @keyframes fade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
     .dot{fill:#67e8f9;opacity:.5}
   </style>
   <g clip-path="url(#clip)">
@@ -41,6 +38,6 @@
     <circle class="dot" cx="960" cy="140" r="2"><animate attributeName="cy" values="140;120;140" dur="4s" repeatCount="indefinite"/></circle>
     <circle class="dot" cx="230" cy="150" r="2.5"><animate attributeName="cy" values="150;128;150" dur="4.5s" repeatCount="indefinite"/></circle>
   </g>
-  <g class="fade1"><text x="600" y="102" text-anchor="middle" class="name" fill="url(#txt)">Emirhan Coşkun</text></g>
-  <g class="fade2"><text x="600" y="145" text-anchor="middle" class="sub">Full-Stack &amp; Mobile Developer · Co-founder @ Ayna Yazılım</text></g>
+  <text x="600" y="102" text-anchor="middle" class="name" fill="#ffffff">Emirhan Coşkun<animate attributeName="opacity" values="0;1" dur="1.2s" begin="0.2s" fill="freeze"/><animate attributeName="fill" values="#ffffff;#a5f3fc;#ffffff" dur="6s" begin="1.4s" repeatCount="indefinite"/></text>
+  <text x="600" y="145" text-anchor="middle" class="sub">Full-Stack &amp; Mobile Developer · Co-founder @ Ayna Yazılım<animate attributeName="opacity" values="0;1" dur="1.2s" begin="0.9s" fill="freeze"/></text>
 </svg>
