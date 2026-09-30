@@ -124,8 +124,7 @@ Local-first Chrome extension that archives, searches and recovers your Claude & 
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Mendivaque&theme=tokyonight&hide_border=true&background=0D1117&ring=06B6D4&fire=22D3EE&currStreakLabel=22D3EE" alt="streak" width="49%"/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mendivaque&bg_color=0D1117&color=22D3EE&line=06B6D4&point=ffffff&area=true&hide_border=true" alt="activity" width="49%"/>
+  <img src="https://streak-stats.demolab.com?user=Mendivaque&theme=tokyonight&hide_border=true&background=0D1117&ring=06B6D4&fire=22D3EE&currStreakLabel=22D3EE" alt="streak" width="70%"/>
 </p>
 
 ---
